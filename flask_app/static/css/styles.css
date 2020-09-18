@@ -1,0 +1,17 @@
+body {
+    font-family: 'Barlow', Helvetica, Arial, sans-serif;
+    width: 960;
+}
+
+h1, h2, h3, h4, p {
+    color: navy;
+}
+
+header {
+    background-image: url('...');
+    height: 500px;
+    text-align: center;
+    padding-top: 10%;
+    background-color: yellow;
+}
+
