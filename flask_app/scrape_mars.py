@@ -125,7 +125,7 @@ def mars_facts():
     df.columns=['Description', 'Value']
     df.set_index('Description', inplace=True)
 
-    return df.to_html(classes="table table-striped")
+    return df.to_html(classes="data table", index=True, header=False, border=0)
 
 
 # Mars Weather

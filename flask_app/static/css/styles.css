@@ -1,6 +1,5 @@
 body {
     font-family: 'Barlow', Helvetica, Arial, sans-serif;
-    width: 960;
 }
 
 h1, h2, h3, h4, p {
@@ -8,10 +7,53 @@ h1, h2, h3, h4, p {
 }
 
 header {
-    background-image: url('...');
-    height: 500px;
+    background-image: url('../images/mars.jpg');
+    min-height: 500px;
+    height: 100vh;
     text-align: center;
-    padding-top: 10%;
-    background-color: yellow;
+    padding-top: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.scrape-button h1 {
+    font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.mars-news {
+    padding: 5%;
+}
+
+.img-square {
+    width: 250px;
+    height: 250px;
+}
+
+.table-back {
+    background-color: #D7C4BB;
+}
+
+.table {
+    padding: 5%;
+}
+
+.feature-img {
+    max-width: 100%;
+    height: 500px;
+}
+
+.hemis {
+    padding: 3%;
+}
+
+.card-size {
+    width: 32rem;
+}
+
+#scale-img {
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+}
