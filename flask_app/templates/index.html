@@ -45,11 +45,10 @@
             </div>
 
             <!-- Mars Images & Facts -->
-            <div class="row table-back">
-                <div class="col-md-6 table">
-                    <table>
-                        {{mars.facts | safe}}
-                    </table>
+            <div class="row mars-table">
+                <div class="col-md-6 fact-table">
+                    <h1>Mars Facts</h1>
+                    <p>{{mars.facts | safe}}</p>
                 </div> 
 
                 <div class="col-md-6">
